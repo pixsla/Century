@@ -19,5 +19,6 @@ Contents
 .. toctree::
       :glob:
       :titlesonly:
+      :maxdepth: 4
 
       *
