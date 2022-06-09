@@ -17,9 +17,7 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
+      :glob:
+      :titlesonly:
 
-   usage
-   api
-   test
-   shop/child
+      *
