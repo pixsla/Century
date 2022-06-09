@@ -1,9 +1,4 @@
-Template for the Read the Docs tutorial
+Century Europe Dev Guide
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+This is the developer Guide for the customization of the Century Online Shop.
