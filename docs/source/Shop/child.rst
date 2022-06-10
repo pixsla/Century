@@ -6,13 +6,19 @@ These are the changes of the child template.
 Variables.scss
 --------
 
-Changes:
-
+```
+dasdadsf
+asFDDFG
+adfd
 ```
 
-// colors
+
+Changes:
+
+//colors
 $gray-lighter:                      #f5f7fa !default;
 $gray-light:                        #9b9b9b !default;
+    
 $gray:                              #707070 !default;
 $gray-dark:                         #525252 !default;
 $gray-medium:                       #ebebeb !default;
@@ -31,9 +37,6 @@ $danger:                            #FFFFFF !default;
 $bg-danger:                         #cf202f !default;
 $bg-main:                           $gray-lighter !default;
 $bg-main-ligther:                   $bg-main !default;
-```
-
-
 $white:                             #ffffff !default;
 $black:                             #000000 !default;
 
