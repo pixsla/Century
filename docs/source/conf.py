@@ -7,7 +7,7 @@ copyright = '2022, Pixsla Media GmbH'
 author = 'Pixsla'
 
 release = '0.1'
-version = '0.1.0'
+version = '0.1.2'
 
 # -- General configuration
 
