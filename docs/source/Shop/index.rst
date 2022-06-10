@@ -1,5 +1,6 @@
-Heading
+Shop
 ========
+
 
 .. toctree::
     :maxdepth: 2
