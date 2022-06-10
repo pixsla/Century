@@ -16,4 +16,4 @@ Contents
       usage
       api
       test
-      Shop/child
+      Shop/index
