@@ -12,11 +12,12 @@ asFDDFG
 adfd
 ```
 
+.. code-block::
 
-Changes:
+    Changes:
 
-//colors
-$gray-lighter:                      #f5f7fa !default;
+    //colors
+    $gray-lighter:                      #f5f7fa !default;
 $gray-light:                        #9b9b9b !default;
     
 $gray:                              #707070 !default;
