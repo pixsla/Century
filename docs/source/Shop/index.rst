@@ -1,5 +1,6 @@
-#Shop/index.rst
+Heading
+========
 
 .. toctree::
-  
-  child
+
+    child
