@@ -6,3 +6,4 @@ Child file
 .. toctree::
 
     child
+    clear
