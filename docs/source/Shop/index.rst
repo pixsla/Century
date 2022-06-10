@@ -1,8 +1,8 @@
 Shop
 ========
 
+Child file 
 
 .. toctree::
-    :maxdepth: 2
 
-    shop/child
+    child
