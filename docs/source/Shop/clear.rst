@@ -6,6 +6,7 @@ Changes:
 
 Imports custom font in diverent areas of frontend
 .. code-block::
+
     @import url("https://use.typekit.net/kue3yyf.css");
     body, .tooltip, .popover, .fa-sup, #footer .productlist-filter-headline {font-family: 'Industry', sans-serif;}
 
@@ -23,6 +24,7 @@ Imports custom font in diverent areas of frontend
     
 Primary Button of the shop e.g. add-to-cart or call-to-action
 .. code-block::
+
     .btn-primary {
         color: #FFFFFF;
         background-color: #cf202f;
