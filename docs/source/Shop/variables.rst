@@ -130,7 +130,17 @@ Imports the above font into frontend
     @import url("https://use.typekit.net/kue3yyf.css");
     body, .tooltip, .popover, .fa-sup, #footer .productlist-filter-headline {font-family: 'Industry', sans-serif;}
 
+
+Hides small blog image in News area
+
+.. code-block::
+
+    .blog-details .blog-details-image {
+        display: none !important;
+    }
+
 Change of color for warning singn e.g. empty cart or new price in cart or no shipping method in cart
+
 .. code-block::
 
     .text-muted-util {
@@ -140,10 +150,81 @@ Change of color for warning singn e.g. empty cart or new price in cart or no shi
         color: #FFFFFF !important;
     }
 
-Hides small blog image in News area
-.. code-block::
-    .blog-details .blog-details-image {
-        display: none !important;
+    .text-muted-util {
+        color: #cf202f;
     }
+
+Changes color of primary button in shop frontend like call-to-action, add-to-cart
+
+.. code-block::
+
+    .btn-primary {
+        color: #FFFFFF !important;
+        background-color: #cf202f !important;
+        border-color: #FFFFFF;
+    }
+    .yousave {
+        font-weight: bold;
+    }
+    .btn-primary:hover {
+        color: #ffffff;
+        background-color: #cf202f;
+        border-color: #ffffff;
+        box-shadow: none;
+    }
+    
+Font color for warning sign
+
+.. code-block::
+
+    .alert-danger {
+        color: #FFFFFF !important;
+    }
+
+Background color for outlined button "zum artikel"
+
+.. code-block::
+
+    .btn-outline-primary {
+         color: #FFFFFF !important;
+        background-color: #cf202f !important;
+        border-color: #FFFFFF;
+    }
+    .btn-animated .btn-outline-primary {
+         color: #FFFFFF !important;
+        background-color: #cf202f !important;
+        border-color: #FFFFFF !important;
+    }
+
+    .btn-animated .btn-outline-primary::after {
+             color: #FFFFFF !important;
+        background-color: #cf202f !important;
+        border-color: #FFFFFF !important;
+    }
+
+Border color of Tab navigation insinde productdetails page
+
+.. code-block::
+
+    /* navs */
+
+    $nav-tabs-border-radius					: 0 !default;
+
+    $nav-tabs-link-hover-border-color		: transparent !default;
+    $nav-tabs-link-active-color				: $link-color !default;
+    $nav-tabs-link-active-bg				: transparent !default;
+    $nav-tabs-link-active-border-color		: #525252 !important;
+
+    $nav-link-padding-x       : 1rem !default;
+    $navbar-padding-y         : .4rem !default;
+    $navbar-padding-y-lg      : .6rem !default;
+    $navbar-image-height      : 2rem !default;
+    $navbar-image-height-lg   : rem(49px) !default;
+
+
+    .tab-navigation .nav-link::after {
+        border-color: #FFFFFF !important;
+    }
+
 
 
