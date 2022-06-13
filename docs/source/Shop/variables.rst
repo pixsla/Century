@@ -1,8 +1,10 @@
 Variables.scss
 --------
 
-    Changes:
-    
+Changes:
+
+Defnies the overall colors
+
 .. code-block::
 
     //colors
@@ -71,6 +73,9 @@ Variables.scss
     $text-muted-header:                 $text-muted !default;
     $input-color-placeholder:           $gray !default;
 
+Defnies the colors and decor of the links 
+.. code-block::
+
     /* links */
 
     $link-color:                        $gray-darker !default;
@@ -84,6 +89,10 @@ Variables.scss
 
     $border-width:                      1px !default;
     $border-color:                      $gray-medium !default;
+
+
+Defines the new font "Industry" located in /themes/base/fonts/
+.. code-block::
 
     // font
 
@@ -105,7 +114,9 @@ Variables.scss
     $font-weight-bold			: 900 !default;
     $font-weight-bolder			: bolder !default;
 
-    //Customization Pixsla
+New color of info-button
+.. code-block::
+
     .btn-info {
         color: #ffffff;
         background-color: #cf202f !important;
@@ -113,8 +124,14 @@ Variables.scss
         box-shadow: none;
     }
 
+Imports the above font into frontend
+.. code-block::
+
     @import url("https://use.typekit.net/kue3yyf.css");
     body, .tooltip, .popover, .fa-sup, #footer .productlist-filter-headline {font-family: 'Industry', sans-serif;}
+
+Change of color for warning singn e.g. empty cart or new price in cart or no shipping method in cart
+.. code-block::
 
     .text-muted-util {
         color: #cf202f;
@@ -123,6 +140,8 @@ Variables.scss
         color: #FFFFFF !important;
     }
 
+Hides small blog image in News area
+.. code-block::
     .blog-details .blog-details-image {
         display: none !important;
     }
