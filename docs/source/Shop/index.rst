@@ -10,3 +10,4 @@ Child file
 
     variables
     clear
+    my-nova-crit
