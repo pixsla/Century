@@ -3,7 +3,7 @@ Variables.scss
 
 Changes:
 
-Defnies the overall colors
+Defines the overall colors
 
 .. code-block::
 
