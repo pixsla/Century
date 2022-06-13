@@ -39,7 +39,8 @@ Primary Button of the shop e.g. add-to-cart or call-to-action
     }
     
 Warning button
-    .. code-block::
+.. code-block::
+
     .alert-danger {
         color: #FFFFFF !important;
     }
