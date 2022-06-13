@@ -5,6 +5,7 @@ Changes:
 
 
 Imports custom font in diverent areas of frontend
+
 .. code-block::
 
     @import url("https://use.typekit.net/kue3yyf.css");
@@ -23,6 +24,7 @@ Imports custom font in diverent areas of frontend
     }
     
 Primary Button of the shop e.g. add-to-cart or call-to-action
+
 .. code-block::
 
     .btn-primary {
@@ -41,6 +43,7 @@ Primary Button of the shop e.g. add-to-cart or call-to-action
     }
     
 Warning button
+
 .. code-block::
 
     .alert-danger {
