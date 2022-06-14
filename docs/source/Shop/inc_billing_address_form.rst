@@ -8,5 +8,5 @@ New langauge variable
 
 .. code-block::
 
-{* pixsla change text in registration *}
-<div class=>{lang key='text-register'}</div>
+  {* pixsla change text in registration *}
+  <div class=>{lang key='text-register'}</div>
