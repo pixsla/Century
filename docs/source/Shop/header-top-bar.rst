@@ -2,6 +2,7 @@ header-top-bar.top
 ------
 
 Adds the logosand the redirection based on the site language
+General styles for new custom div containers
 
 .. code-block::
 
@@ -48,12 +49,12 @@ Adds the logosand the redirection based on the site language
   body[data-page="11"] div#header-top-bar .container-fluid.container-fluid-xl {
       display: none;
   }
-
-
-
-
-
       </style>
+
+Adds the content to new "justify-content-center header_images" container
+For german
+
+.. code-bloc::
 
       {strip}
       <div class="justify-content-center header_images">
@@ -66,6 +67,12 @@ Adds the logosand the redirection based on the site language
           <a href="https://www.century-europe.eu/Black-Belt-Magazin" title="blackbeltmag">
           <img class="topbar-icons" src="/media/image/storage/opc/top-bar/black-belt-logo.png"> </a> 
       {/if}
+      
+Adds the content to new "justify-content-center header_images" container
+For englisch
+
+.. code-block::
+
       {if $meta_language == "en"}
           <a href="https://www.century-europe.eu/Punok_2" title="Punok">
           <img class="topbar-icons" src="/media/image/storage/opc/top-bar/punoklogo.svg">
