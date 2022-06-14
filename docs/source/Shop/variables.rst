@@ -73,7 +73,8 @@ Defines the overall colors
     $text-muted-header:                 $text-muted !default;
     $input-color-placeholder:           $gray !default;
 
-Defnies the colors and decor of the links 
+Defines the colors and decor of the links 
+
 .. code-block::
 
     /* links */
@@ -92,6 +93,7 @@ Defnies the colors and decor of the links
 
 
 Defines the new font "Industry" located in /themes/base/fonts/
+
 .. code-block::
 
     // font
@@ -115,6 +117,7 @@ Defines the new font "Industry" located in /themes/base/fonts/
     $font-weight-bolder			: bolder !default;
 
 New color of info-button
+
 .. code-block::
 
     .btn-info {
@@ -125,6 +128,7 @@ New color of info-button
     }
 
 Imports the above font into frontend
+
 .. code-block::
 
     @import url("https://use.typekit.net/kue3yyf.css");
