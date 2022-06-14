@@ -1,6 +1,8 @@
 Product details page - details.tpl
 -----
 
+located in /child/productdetails/
+
 hides short descritpion from original position
 Hides lines 168-180
 
