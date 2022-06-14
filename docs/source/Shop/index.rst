@@ -11,3 +11,4 @@ Child file
     variables
     clear
     my-nova-crit
+    header-top-bar
