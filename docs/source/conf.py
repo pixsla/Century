@@ -9,6 +9,15 @@ author = 'Pixsla'
 release = '0.1'
 version = '0.1.2'
 
+# -- Logo
+html_theme = 'sphinx_rtd_theme'
+html_static_path = ['_static']
+html_logo = 'century.png'
+html_theme_options = {
+    'logo_only': True,
+    'display_version': False,
+}
+
 # -- General configuration
 
 extensions = [
