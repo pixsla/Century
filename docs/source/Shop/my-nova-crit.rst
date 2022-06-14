@@ -1,4 +1,4 @@
-my-nova-crit.rst
+my-nova-crit.scss
 ------
 
 Mendatory definition file for child template.
