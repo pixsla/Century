@@ -14,3 +14,4 @@ Child file
     header-top-bar
     header
     inc_billing_address_form
+    details
